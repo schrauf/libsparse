@@ -44,7 +44,7 @@ modvariablepardiso.o: modsparse_mkl.o
 
 
 clean:
-	rm -fv *.o *.optrpt *.a *.mod *.smod
+	$(RM) -fv *.o *.optrpt *.a *.mod *.smod
 	
 cleanlib:
-	rm -fv *.a
+	$(RM) -fv *.a

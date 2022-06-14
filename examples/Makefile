@@ -22,4 +22,4 @@ all:	$(EXEC)
 	$(FC)  $(FFLAGS) $(DEBUG) $^ $(LIB) $(FLIBS) -o $@
 
 clean:
-	rm -fv *.dat *.o *.optrpt $(EXEC)
+	$(RM) -fv *.dat *.o *.optrpt $(EXEC)
